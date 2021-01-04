@@ -1,13 +1,13 @@
 name: "log"
-description: "A Rust library providing a lightweight logging facade."
+description: "A lightweight logging facade for Rust"
 third_party {
   url {
     type: HOMEPAGE
     value: "https://crates.io/crates/log"
   }
   url {
-    type: GIT
-    value: "https://github.com/rust-lang/log"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/log/log-0.4.11.crate"
   }
   version: "0.4.11"
   license_type: NOTICE
